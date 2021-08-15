@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TRAVEL BOOKINGS</title>
+	<link rel="stylesheet"href="flight.css">
+	<link rel="stylesheet"href="footer.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<meta content="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="index container animated zoomIn ">
+<div class="form contactform">
+<div id="page1">
+<div class="flight">&#9992; Flight Search</div>
+<div class="search-box" >
+  <form class="autocomplete">
+    <input id="from" placeholder="SOURCE" name="myCountry" autocomplete="off" type="text">
+  
+	<input id="to" name="des"  placeholder="DESTINATION" autocomplete="off" type="text"> 
+  </form>		
+	<div class="dates">
+		<div class="d date">
+			<label name="fname" class="flight-date">DEPARTURE-DATE</label><br>
+			<input id="datepicker" type="date" required value="31 jan 21"/>
+		</div>
+		<div class="r date">
+			<label class="flight-date">RETURN-DATE</label><br>
+			<input value="31 jul 21"type="date" />
+		</div>
+	</div>
+	<div class="classes">
+		<div class="traveler">
+			<div class= "age" >
+			<label>Adult </label>	<br>
+			<input type="number" class="number-btn" value="01"required="required" /><br>
+			<label>child(2-12 years)</label><br>
+			<input type="number" class="number-btn" value="0"/><br>
+			<label>infant(below 2years)</label><br>
+			<input type="number" class="number-btn" value="0"/>
+			</div>
+		</div>
+		<div id="trvller" class="people">
+			<label>Traveller's class </label><br>
+			<select name="s1" class= "people-btn">
+			<option> Economy class</option>
+			<option>First class</option>
+			<option>Business class</option>
+			</select>
+		</div>
+	</div>
+		<button id="search" class="search-btn"><h3>SEARCH FLIGHT</h3></button>
+</div>
+<script src="ip.js"></script>
+<script src="ip1.js"></script>
+<!---------------------------------------------------------------->
+<div class="adv-box">
+		<label class="ad"><p>Stay Informed & Travel Safe<br><strong>COVID19 UPDATE</strong></p></label>
+		<div class="flight-ad">
+			<p>Your guide to help you make smart travel decisions during COVID-19</p>
+			<a href="offers.html">Know more ></a>
+		</div>
+</div>
+<hr>
+<!----------------------------------------------------->
+<!--<div class="offer-flight">
+			<p>Grab Flat 12% OFF* on PUNE to DELHI flights
+			<br>with HDFC Bank Credit Cards</p>
+		</div>-->
+<!----------------------------------------------------->
+<footer>
+<div class="footer-content">
+	<div class="center-box">
+		<h2>Serivces</h2>
+		<ul class="quicklinks">
+			<li><a href="index.html"> Home</a></li>
+			<li><a href="login.html"> Login</a></li>
+			<li><a href="trips.html"> Your Trips</a></li>
+			<li><a href="offers.html"> Offers</a></li>
+		</ul>
+		<div class="soical">
+				<a href="https://touch.facebook.com/saivamshi373"><span class="fab fa-facebook-f"></span></a>&nbsp; 
+				<a href="https://mobile.twitter.com/Vamshi57226613"><span class="fab fa-twitter"></span></a>&nbsp; 
+				<a href="https://www.instagram.com/_vamshi.14_/"><span class="fab fa-instagram"></span></a>&nbsp; 
+		</div>
+	</div>
+		<div class="quick-links-footer">
+			<h2> Quick links</h2>
+				<ul class="quicklinks">
+					<li><a href="flight.html"> Flight</a></li>
+					<li><a href="train.html"> Train</a></li>
+					<li><a href="bus.html"> Bus</a></li>
+					<li><a href="cabs.html"> Cab</a></li>
+					<li><a href="hotel.html"> Hotels</a></li>
+					<li><a href="metro.html"> Metro</a></li>		
+				</ul>
+		</div>		
+</div>
+
+<div class="bottombox">
+	<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by charan</p>
+</div>
+</footer>
+</div><!--page1-->
+<!-----page2----------------------->
+<div class="page2" id="page2" >
+<div id="flightname" class="from-to"> </div>
+<div class="tickets">
+<button class="accordion">
+	<div class="grid-1">
+			<div class="item1">
+				<div class="sub-grid">
+				  <div class="item101"><img class="img" src="air-india.jpg"></div>
+				<div class="item102"><h4>Air India</h4></div>
+			</div>
+			</div>
+			<div class="item3">
+				<p>15:10</p><p class="fl-from"></p>
+			</div>
+			<div class="item4">	
+				<p>--2h5m --</p><p><small>(No-Stop)</small></p>
+			</div>
+			<div class="item5">	
+				<p>17:15</p><p class="fl-to"></p>
+			</div>
+			<div class="item6">	
+				<p>&#8377 3,943</p><t><small>View Price</small></t>
+			</div>
+			<div class="view-more"><small>view more &#8964;</small></div>
+
+	</div>
+</button>
+<div class="panel">
+  <div class="box1"><p><t>Economy</t><br><br><small>Fare Offered By Arilines</small></p></div>	
+  <div class="box2"><p>&#8377 3,943</p></div>	
+  <div class="box7"><p>Cabin Bag</p></div>	
+  <div class="box8"><p>7kgs</p></div>	
+  <div class="box5"><p>Check-in</p></div>	
+  <div class="box6"><p>15kgs</p></div>	
+  <div class="box3"><p>Cancellation</p></div>	
+  <div class="box4"><p><small>Cancellation fee Starting &#8377 3,500 upto 4hrs before departure.</small></p></div>	
+  <button class="box9"><p>Book Now</p></button>
+  
+</div>
+ <!------------------------------------------------------------------------>
+<button class="accordion"><div class="grid-1">
+			<div class="item1">
+				<div class="sub-grid">
+				  <div class="item101"><img class="img" src="indi-go.jpg"></div>
+				<div class="item102"><h4>IndiGo</h4></div>
+			</div>
+			</div>
+			<div class="item3">
+				<p>22:15</p><p class="fl-from"></p></p>
+			</div>
+			<div class="item4">	
+				<p>--9h10m --</p><p><small>(No-Stop)</small></p>
+			</div>
+			<div class="item5">	
+				<p>07:25</p><p class="fl-to"></p></p>
+			</div>
+			<div class="item6">	
+				<p>&#8377 3,993</p><t><small>View Price</small></t>
+			</div>
+			<div class="view-more"><small>view options &#8964;</small></div>
+			
+</div></button>
+<div class="panel">
+  <div class="box1"><p>Flexi plus<br><br><small>Fare Offered By Arilines</small></p></div>	
+  <div class="box2"><p>&#8377 3,993</p></div>	
+  <div class="box7"><p>Cabin Bag</p></div>	
+  <div class="box8"><p>7kgs</p></div>	
+  <div class="box5"><p>Check-in</p></div>	
+  <div class="box6"><p>15kgs</p></div>	
+  <div class="box3"><p>Cancellation</p></div>	
+  <div class="box4"><p><small>Cancellation fee Starting &#8377 3,500 upto 2hrs before departure.</small></p></div>	
+  <button  class="box9"><p>Book Now</p></button>	
+</div>
+ <!------------------------------------------------------------------------>
+<button class="accordion"><div class="grid-1">
+			<div class="item1">
+				<div class="sub-grid">
+				  <div class="item101"><img class="img" src="air-asia.jpg"></div>
+				<div class="item102"><h4>AirAsia</h4></div>
+			</div>
+			</div>
+			<div class="item3">
+				<p>08:25</p><p class="fl-from"></p></p>
+			</div>
+			<div class="item4">	
+				<p>--1h15m --</p><p><small>(No-Stop)</small></p>
+			</div>
+			<div class="item5">	
+				<p>09:40</p><p class="fl-to"></p></p>
+			</div>
+			<div class="item6">	
+				<p>&#8377 3,613</p><t><small>View Price</small></t>
+			</div>	
+			<div class="view-more"><small>view options &#8964;</small></div>
+
+</div></button>
+<div class="panel">
+  <div class="box1"><p>Economy lite<br><br><small>Fare Offered By Arilines</small></p></div>	
+  <div class="box2"><p>&#8377 3,613</p></div>	
+  <div class="box7"><p>Cabin Bag</p></div>	
+  <div class="box8"><p>7kgs</p></div>	
+  <div class="box5"><p>Check-in</p></div>	
+  <div class="box6"><p>15kgs</p></div>	
+  <div class="box3"><p>Cancellation</p></div>	
+  <div class="box4"><p><small>Cancellation fee Starting &#8377 3,500</small></p></div>	
+ <button  class="box9"><p>Book Now</p></button>	
+</div>
+ <!------------------------------------------------------------------------>
+
+<button class="accordion"><div class="grid-1">
+			<div class="item1">
+				<div class="sub-grid">
+				  <div class="item101"><img class="img" src="spice-jet.jpg"></div>
+				<div class="item102"><h4>Spicejet</h4></div>
+			</div>
+			</div>
+			<div class="item3">
+				<p>19:25</p><p class="fl-from"></p></p>
+			</div>
+			<div class="item4">	
+				<p>--1h25m --</p><p><small>(No-Stop)</small></p>
+			</div>
+			<div class="item5">	
+				<p>20:50</p><p class="fl-to"></p></p>
+			</div>
+			<div class="item6">	
+				<p>&#8377 3,612</p><t><small>View Price</small></t>
+			</div>
+			<div class="view-more"><small>view options &#8964;</small></div>
+			
+</div></button>
+<div class="panel">
+  <div class="box1"><p>Economy<br><br><small>Fare Offered By Arilines</small></p></div>	
+  <div class="box2"><p>&#8377 3,612</p></div>	
+  <div class="box7"><p>Cabin Bag</p></div>	
+  <div class="box8"><p>7kgs</p></div>	
+  <div class="box5"><p>Check-in</p></div>	
+  <div class="box6"><p>15kgs</p></div>	
+  <div class="box3"><p>Cancellation</p></div>	
+  <div class="box4"><p><small>Cancellation fee Starting &#8377 3,500 upto 2hrs before departure.</small></p></div>	
+  <button  class="box9"><p>Book Now</p></button>	
+</div>
+ <!------------------------------------------------------------------------>
+
+<button class="accordion"><div class="grid-1">
+			<div class="item1">
+				<div class="sub-grid">
+				  <div class="item101"><img class="img" src="go-air.jpg"></div>
+				<div class="item102"><h4>Go Air</h4></div>
+			</div>
+			</div>
+			<div class="item3">
+				<p>08:25</p><p class="fl-from"></p></p>
+			</div>
+			<div class="item4">	
+				<p>--1h15m --</p><p><small>(No-Stop)</small></p>
+			</div>
+			<div class="item5">	
+				<p>09:40</p><p class="fl-to"></p>
+			</div>
+			<div class="item6">	
+				<p>&#8377 3,513</p><t><small>View Price</small></t>
+			</div>
+			<div class="view-more"><small>view options &#8964;</small></div>
+</div></button>
+<div class="panel">
+  <div class="box1"><p>Saver<br><br><small>Fare Offered By Arilines</small></p></div>	
+  <div class="box2"><p>&#8377 3,513</p></div>	
+  <div class="box7"><p>Cabin Bag</p></div>	
+  <div class="box8"><p>7kgs</p></div>	
+  <div class="box5"><p>Check-in</p></div>	
+  <div class="box6"><p>15kgs</p></div>	
+  <div class="box3"><p>Cancellation</p></div>	
+  <div class="box4"><p><small>Cancellation fee Starting &#8377 2,500 upto 4hrs before departure.</small></p></div>	
+  <button  class="box9"><p>Book Now</p></button>	
+</div>
+ <!------------------------------------------------------------------------>
+
+<button class="accordion"><div class="grid-1">
+			<div class="item1">
+				<div class="sub-grid">
+				  <div class="item101"><img class="img" src="air-india.jpg"></div>
+				<div class="item102"><h4>Air India</h4></div>
+			</div>
+			</div>
+			<div class="item3">
+				<p>22:00</p><p class="fl-from"></p></p>
+			</div>
+			<div class="item4">	
+				<p>--1h30m --</p><p><small>(No-Stop)</small></p>
+			</div>
+			<div class="item5">	
+				<p>12:05</p><p class="fl-to"></p>
+			</div>
+			<div class="item6">	
+				<p>&#8377 3,613</p><t><small>View Price</small></t>
+			</div>
+			<div class="view-more"><small>view options &#8964;</small></div>
+			
+</div></button>
+<div class="panel">
+  <div class="box1"><p>Economy<br><br><small>Fare Offered By Arilines</small></p></div>	
+  <div class="box2"><p>&#8377 3,613</p></div>	
+  <div class="box7"><p>Cabin Bag</p></div>	
+  <div class="box8"><p>7kgs</p></div>	
+  <div class="box5"><p>Check-in</p></div>	
+  <div class="box6"><p>15kgs</p></div>	
+  <div class="box3"><p>Cancellation</p></div>	
+  <div class="box4"><p><small>Cancellation fee Starting &#8377 3,000 upto 4hrs.</small></p></div>	
+  <button  class="box9"><p>Book Now</p></button>	
+</div>
+ <!------------------------------------------------------------------------>
+
+<button class="accordion"><div class="grid-1">
+			<div class="item1">
+				<div class="sub-grid">
+				  <div class="item101"><img class="img" src="air-asia.jpg"></div>
+				<div class="item102"><h4>AirAsia</h4></div>
+			</div>
+			</div>
+			<div class="item3">
+				<p>10:35</p><p class="fl-from"></p></p>
+			</div>
+			<div class="item4">	
+				<p>--1h15m --</p><p><small>(No-Stop)</small></p>
+			</div>
+			<div class="item5">	
+				<p>12:05</p><p class="fl-to"></p>
+			</div>
+			<div class="item6">	
+				<p>&#8377 3,619</p><t><small>View Price</small></t>
+			</div>
+			<div class="view-more"><small>view options &#8964;</small></div>
+			
+</div></button>
+<div class="panel">
+  <div class="box1"><p>Economy lite<br><br><small>Fare Offered By Arilines</small></p></div>	
+  <div class="box2"><p>&#8377 3,619</p></div>	
+  <div class="box7"><p>Cabin Bag</p></div>	
+  <div class="box8"><p>7kgs</p></div>	
+  <div class="box5"><p>Check-in</p></div>	
+  <div class="box6"><p>15kgs</p></div>	
+  <div class="box3"><p>Cancellation</p></div>	
+  <div class="box4"><p><small>Cancellation fee Starting &#8377 3,500 upto 2hrs before departure.</small></p></div>	
+  <button  class="box9"><p>Book Now</p></button>	
+</div>
+ <!------------------------------------------------------------------------>
+
+<button class="accordion"><div class="grid-1">
+			<div class="item1">
+				<div class="sub-grid">
+				  <div class="item101"><img class="img" src="go-air.jpg"></div>
+				<div class="item102"><h4>Go Air</h4></div>
+			</div>
+			</div>
+			<div class="item3">
+				<p>19:00</p><p class="fl-from"></p></p>
+			</div>
+			<div class="item4">	
+				<p>--1h30m --</p><p><small>(No-Stop)</small></p>
+			</div>
+			<div class="item5">	
+				<p>20:30</p><p class="fl-to"></p>
+			</div>
+			<div class="item6">	
+				<p>&#8377 3,614</p><t><small>View Price</small></t>
+			</div>	
+			<div class="view-more"><small>view options &#8964;</small></div>
+
+</div></button>
+<div class="panel">
+  <div class="box1"><p>Economy<br><br><small>Fare Offered By Arilines</small></p></div>	
+  <div class="box2"><p>&#8377 3,614</p></div>	
+  <div class="box7"><p>Cabin Bag</p></div>	
+  <div class="box8"><p>7kgs</p></div>	
+  <div class="box5"><p>Check-in</p></div>	
+  <div class="box6"><p>15kgs</p></div>	
+  <div class="box3"><p>Cancellation</p></div>	
+  <div class="box4"><p><small>Cancellation fee Starting &#8377 3,000 upto 2hrs before departure.</small></p></div>	
+  <button  class="box9"><p>Book Now</p></button>	
+	</div>
+ <!------------------------------------------------------------------------>
+<button class="accordion"><div class="grid-1">
+			<div class="item1">
+				<div class="sub-grid">
+				  <div class="item101"><img class="img" src="air-india.jpg"></div>
+				<div class="item102"><h4>Air India</h4></div>
+			</div>
+			</div>
+			<div class="item3">
+				<p>06:40</p><p class="fl-from"></p></p>
+			</div>
+			<div class="item4">	
+				<p>--6h10m --</p><p><small>(No-Stop)</small></p>
+			</div>
+			<div class="item5">	
+				<p>12:50</p><p class="fl-to"></p>
+			</div>
+			<div class="item6">	
+				<p>&#8377 5,940</p><t><small>View Price</small></t>
+			</div>	
+			<div class="view-more"><small>view options &#8964;</small></div>
+
+</div></button>
+<div class="panel">
+  <div class="box1"><p>Economy saver<br><br><small>Fare Offered By Arilines</small></p></div>	
+  <div class="box2"><p>&#8377 5,940</p></div>	
+  <div class="box7"><p>Cabin Bag</p></div>	
+  <div class="box8"><p>7kgs</p></div>	
+  <div class="box5"><p>Check-in</p></div>	
+  <div class="box6"><p>15kgs</p></div>	
+  <div class="box3"><p>Cancellation</p></div>	
+  <div class="box4"><p><small>Cancellation fee Starting &#8377 3,500 upto 2hrs before departure.</small></p></div>	
+  <button  class="box9"><p>Book Now</p></button>	
+	</div>
+ <!------------------------------------------------------------------------>
+<button class="accordion"><div class="grid-1">
+			<div class="item1">
+				<div class="sub-grid">
+				  <div class="item101"><img class="img" src="spice-jet.jpg"></div>
+				<div class="item102"><h4>Spicejet</h4></div>
+			</div>
+			</div>
+			<div class="item3">
+				<p>13:50</p><p class="fl-from"></p></p>
+			</div>
+			<div class="item4">	
+				<p>--7h20m --</p><p><small>(No-Stop)</small></p>
+			</div>
+			<div class="item5">	
+				<p>21:15</p><p class="fl-to"></p>
+			</div>
+			<div class="item6">	
+				<p>&#8377 4,180</p><t><small>View Price</small></t>
+			</div>	
+			<div class="view-more"><small>view options &#8964;</small></div>
+
+</div></button>
+<div class="panel">
+  <div class="box1"><p>flexi plus<br><br><small>Fare Offered By Arilines</small></p></div>	
+  <div class="box2"><p>&#8377 4,180</p></div>	
+  <div class="box7"><p>Cabin Bag</p></div>	
+  <div class="box8"><p>7kgs</p></div>	
+  <div class="box5"><p>Check-in</p></div>	
+  <div class="box6"><p>15kgs</p></div>	
+  <div class="box3"><p>Cancellation</p></div>	
+  <div class="box4"><p><small>Cancellation fee Starting &#8377 3,500 upto 2hrs before departure.</small></p></div>	
+  <button  class="box9"><p>Book Now</p></button>	
+</div>
+ <!------------------------------------------------------------------------>
+	<script>var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var panel = this.nextElementSibling;
+		if (panel.style.maxHeight) {
+		  panel.style.maxHeight = null;
+		} else {
+		  panel.style.maxHeight = panel.scrollHeight + "px";
+		} 
+	  });
+		}
+	</script>
+</div>
+		<footer>
+		<div class="bottombox">
+				<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by sandeep</p>
+		</div>
+		</footer>
+</div><!--page2-->
+<!------------page3------>
+<div class="page3" id="page3" >
+<div  class="tickets-fl">Traveller Details</div>
+   <div class="details-container">
+	<div class="ticket-check" id="flname"></div>
+
+   </div>
+  <div class="pass-details">
+  <h3>Fill The Details</h3>
+  <label for="f-nmae"><p>NAME</p></label>
+	<div class="ninput">
+		<input class="f-name" type="text" id="fname" placeholder="First Name" required />
+		<input class="s-name" type="text" id="sname" placeholder="Last Name"/>
+	</div>
+	<div class="mail">
+		<label for="e-mail"><p>EMAIL ID</p></label>
+		<input class="e-mail" type="email" id="mail" placeholder="Enter Email"required />
+	</div>
+	<div class="sss">
+	<div class="agebox">
+		<label for="age"><p>AGE</p></label>
+		<input  class="age" type="number" id="ageid" placeholder="Enter Age" required />
+	 </div>
+	<div class="radiobox">
+			<label>GENDER</label>
+			<select name="s1" class= "people-btn" placeholder="select">
+			<option id="male">Male</option>
+			<option>Female</option>
+			</select>
+	 </div>
+	 </div>
+	 <div class="mail">
+		<label for="phnno"><p>CONTACT NUMBER</p></label>
+		<input class="phnno" type="number" id="phno" placeholder="Enter Contact no"required />
+	</div>
+	
+	<button id="continue" class="search-btnn"><h3>CONTINUE</h3></button>
+  </div>
+  <br><br>
+	<footer>
+	<div class="bottombox">
+		<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by sandeep</p>
+	</div>
+	</footer>
+</div><!---page3-->
+<div class="page4" id="page4" >
+	<div class="details-container1">
+		<div class="ticket-check1">Name: <span id="fname-sname"></span></div>
+		<div class="ticket-check1">Email Id: <span id="fmail"></span></div>
+	</div>
+<div class="plane">
+  <div class="cockpit">
+    <h1>Please select a seat</h1>
+  </div>
+ <div class="exit exit--front fuselage"></div>
+  <ol class="cabin fuselage">
+    <li class="row row--1">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="1A" />
+          <label for="1A">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="1B" />
+          <label for="1B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="1C" />
+          <label for="1C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="1D" />
+          <label for="1D">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="1E" />
+          <label for="1E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="1F" />
+          <label for="1F">X</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--2">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" disabled id="2A" />
+          <label for="2A">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="2B" />
+          <label for="2B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="2C" />
+          <label for="2C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="2D" />
+          <label for="2D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="2E" />
+          <label for="2E">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="2F" />
+          <label for="2F">X</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--3">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="3A" />
+          <label for="3A">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="3B" />
+          <label for="3B">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="3C" />
+          <label for="3C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="3D" />
+          <label for="3D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="3E" />
+          <label for="3E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="3F" />
+          <label for="3F">X</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--4">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" disabled id="4A" />
+          <label for="4A">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="4B" />
+          <label for="4B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="4C" />
+          <label for="4C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="4D" />
+          <label for="4D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="4E" />
+          <label for="4E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="4F" />
+          <label for="4F">X</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--5">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="5A" />
+          <label for="5A">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="5B" />
+          <label for="5B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="5C" />
+          <label for="5C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="5D" />
+          <label for="5D">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="5E" />
+          <label for="5E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="5F" />
+          <label for="5F">X</label>
+        </li>
+      </ol>
+    </li>
+	<li class="row row--21">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" disabled id="21A" />
+          <label for="21A">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="21B" />
+          <label for="21B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="21C" />
+          <label for="21C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="21D" />
+          <label for="21D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="21E" />
+          <label for="21E">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="2F" />
+          <label for="21F">X</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--6">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="6A" />
+          <label for="6A">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="6B" />
+          <label for="6B">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="6C" />
+          <label for="6C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="6D" />
+          <label for="6D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="6E" />
+          <label for="6E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="6F" />
+          <label for="6F">X</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--7">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="7A" />
+          <label for="7A">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="7B" />
+          <label for="7B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="7C" />
+          <label for="7C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="7D" />
+          <label for="7D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="7E" />
+          <label for="7E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="7F" />
+          <label for="7F">Occupied</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--8">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="8A" />
+          <label for="8A">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="8B" />
+          <label for="8B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="8C" />
+          <label for="8C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="8D" />
+          <label for="8D">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="8E" />
+          <label for="8E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="8F" />
+          <label for="8F">X</label>
+        </li>
+      </ol>
+    </li>
+	<li class="row row--22">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" disabled id="22A" />
+          <label for="22A">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="22B" />
+          <label for="22B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="22C" />
+          <label for="22C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="22D" />
+          <label for="22D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="22E" />
+          <label for="22E">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="22F" />
+          <label for="22F">X</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--9">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="9A" />
+          <label for="9A">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="9B" />
+          <label for="9B">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="9C" />
+          <label for="9C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="9D" />
+          <label for="9D">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="9E" />
+          <label for="9E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="9F" />
+          <label for="9F">X</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--10">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="10A" />
+          <label for="10A">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="10B" />
+          <label for="10B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="10C" />
+          <label for="10C">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="10D" />
+          <label for="10D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="10E" />
+          <label for="10E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="10F" />
+          <label for="10F">X</label>
+        </li>
+      </ol>
+    </li>
+	<li class="row row--11">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" disabled id="11A" />
+          <label for="11A">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="11B" />
+          <label for="11B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="11C" />
+          <label for="11C">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="11D" />
+          <label for="11D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="11E" />
+          <label for="11E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="11F" />
+          <label for="11F">Occupied</label>
+        </li>
+      </ol>
+    </li>
+	<li class="row row--12">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="12A" />
+          <label for="12A">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="12B" />
+          <label for="12B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="12C" />
+          <label for="12C">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="12D" />
+          <label for="12D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="12E" />
+          <label for="12E">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="12F" />
+          <label for="12F">X</label>
+        </li>
+      </ol>
+    </li>
+	<li class="row row--13">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="13A" />
+          <label for="13A">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="13B" />
+          <label for="13B">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="13C" />
+          <label for="13C">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="13D" />
+          <label for="13D">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="13E" />
+          <label for="13E">X</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="13F" />
+          <label for="13F">Occupied</label>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <div class="exit exit--back fuselage"></div>
+    
+  <div class="check-bus">
+ <button  id="seatcheck" class="search-btnnn"><h3>CONFIRM</h3></button>
+ </div>
+</div>
+<br>
+	<footer>
+	<div class="bottombox">
+		<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by sandeep</p>
+	</div>
+	</footer>
+</div><!--pag4-->
+
+<!------seat---->
+<div class="page5" id="page5" >
+<div  class="tickets-pay">Payment Details</div>
+  <div class="marquee">Its jsut a dimmy payment!</div>
+  <div class="payment">
+            <h3>Payment</h3>
+		<div class="pay">
+            <label for="cards">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+        <div class="pas-details">
+            <label for="ccnum">Card Number</label><br>
+            <input type="text" name="cardnumber" placeholder="1111-2222-3333-4444">
+			<label for="cname">Cards Holder Name</label><br>
+            <input type="text" name="cardname" placeholder="Card Holder Name">
+		</div>
+		<div class="expmonth">
+			<label for="expmonth">Exp Month</label><br>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+		</div>
+            <div class="l-row">
+              <div class="expyear">
+                <label for="expyear">Exp Year</label><br>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="cvv">
+                <label for="cvv">CVV</label><br>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+        </div>  
+		
+		
+		<button id="continue-tckt" class="search-btn1"><h3>CONTINUE</h3></button>
+	</div>
+	<br><br>
+	<footer>
+	<div class="bottombox">
+		<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by sandeep</p>
+	</div>
+	</footer>
+</div><!--page5-->
+<!----------------------------page4---------------->
+<div class="page6" id="page6">
+<div  class="tickets1">Flight Details</div>
+	<div class="ticket-grid">
+		<div class="item01"><v>Flight No: AC2505</v></div>
+		<div class="item02"><v>From: </v><span id="From1"></span></div>
+		<div class="item03"><v>To: </v><span id="to1" ></span></div>
+		<div class="item04"><v>Date: </v><span id="datepicke"></span></div>
+		<div class="item05"><v>Class: A</v></div>
+		<div class="item06"><v>Seat :24A</v></div>
+		<div class="item07"><v>Boarding Time: 03:30</v></div>
+		<div class="item08"><v>Gate: A7</v></div>
+	</div>
+<div  class="tickets1">Passenger Details</div>
+
+	<div class="pas-gird">
+		<div class="item111"><v>Name: </v><span id="pname"></span></div>
+		<div class="item113"><v>Moblie no: </v><span id="pcontactno"></span></div>
+		<div class="item114"><v>From: </v><span id="from2"></span></div>
+		<div class="item117"><v>To: </v><span id="to2"></span></div>
+		<div class="item118"><v>Date: </v><span id="datepicke2"></span></div>
+		<div class="item119"><v>Booking No: DL4014637690</v></div>
+	</div>
+		<div class="offer-flight">
+			<p>Thank you For Booking &#10003;</p>
+		</div>
+	<div class="fbtn">
+		<button onclick="document.location='index.html'" class="search-btn111"><h3>HOME</h3></a></button>
+	</div>
+	<br>
+	<footer>
+	<div class="bottombox">
+		<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by sandeep</p>
+	</div>
+	</footer>
+</div><!--page6-->
+
+</div>
+</div>
+<script>
+ $(document).ready(function() {
+  
+  $("#page2").hide();
+  $("#page3").hide();
+  $("#page4").hide();
+  $("#page5").hide();
+  $("#page6").hide();
+  $("#search").click(function() {
+	from = $("#from").val();
+    to = $("#to").val();
+    date = $("#datepicker").val();
+    if (!(from && to && date )) {
+      alert("Please Fill All Fields !");
+      return False;
+		} 
+		else if (from == to) {
+      alert("From and To can't be same");
+      return False;
+		}
+		$("#page1").hide();
+		$("#page2").show();
+		$("#page3").hide();
+		$("#page4").hide();
+		$("#page5").hide();
+		$("#page6").hide();
+		 $("#flightname").html(from + " &#8594; " + to  );
+		 $(".fl-from").html(from);
+		 $(".fl-to").html(to);
+		 
+			$(".accordion").click(function() {
+			$(".view-more").hide();
+			setTimeout(function(){
+			$(".view-more").show();
+			},7000);
+			})
+			
+		});
+		
+		$(".box9").click(function() {
+		  $(".page1").hide();
+		  $(".page2").hide();
+		  $(".page3").show();
+		  $(".page4").hide();
+		  $(".page5").hide();
+		  $(".page6").hide();
+		  
+			$("#flname").html(from + " to " + to);	
+			});
+/*----------for the page3 -------------*/
+     $("#continue").click(function() {
+    fname = $("#fname").val();
+    sname = $("#sname").val();
+    mail = $("#mail").val();
+    phno = $("#phno").val();
+    if (!(fname && sname && mail && phno)) {
+      alert("Please Fill All Fields !");
+      return False;
+    } 
+
+    $("#page1").hide();
+    $("#page2").hide();
+    $("#page3").hide();
+    $("#page4").show();
+    $("#page5").hide();
+    $("#page6").hide();
+		$("#fname-sname").html(fname + " " +sname);
+		$("#fmail").html(mail);
+		
+	});
+/*----------for the page4 -------------*/
+	$("#seatcheck").click(function(){
+
+    $("#page1").hide();
+    $("#page2").hide();
+    $("#page3").hide();
+    $("#page4").hide();
+    $("#page5").show();
+    $("#page6").hide();
+		
+	});
+		
+	$("#continue-tckt").click(function(){
+
+    $("#page1").hide();
+    $("#page2").hide();
+    $("#page3").hide();
+    $("#page4").hide();
+    $("#page5").hide();
+    $("#page6").show();
+			$("#From1").html(from);	
+			$("#to1").html(to);	
+			$("#datepicke").html(date);	
+			$("#pname").html(fname + " " +sname );	
+			$("#pcontactno").html(phno);	
+			$("#from2").html(from);	
+			$("#to2").html(to);	
+			$("#datepicke2").html(date);
+	
+		});
+		
+});
+</script>
+
+</body>
+</html>

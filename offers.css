@@ -1,0 +1,192 @@
+body{background-color:#181818!important;
+margin:0%;}
+
+@media only screen and (max-width:480px){
+	
+.from-to{font-size:35px;
+		line-height:55px;
+		margin-top:-6%;
+		padding-left:25px;
+		color:white;
+		background-color:#1D2228;
+		font-family:arial;
+		margin-bottom:-18px;}
+
+.adv-box{margin-bottom:3%;
+	padding-bottom:10px;
+	background-image: linear-gradient(to right top, #484848, #705c6b, #a76c76, #d1856a, #dbae58);
+	margin-top:3%;
+	margin-left: auto;
+	margin-right: auto;
+	width:96%;}
+.ad>t{color:#ffa500;}
+.adv-box>label{margin-left:3%;
+	margin-top:2%;
+	font-weight:400;
+	font-size:18px;
+	color:white;
+	font-family:arial;}
+.flight-ad{height:100px;
+	width:94%;
+	border-radius:5px;
+	background-color:white;
+	box-shadow:0 0 13px 0 rgba(0,0,0,0.3);
+	margin-top:2%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.flight-ad>p{color:#015c92;
+	padding-top:5px;
+	padding-left:6px;
+	font-size:17px;
+	}
+.flight-ad>a{padding-bottom:40px;
+	margin-left:67%;
+	text-decoration:none;
+	color:black;
+	cursor:pointer;
+	}
+.offer-box{padding-bottom:15px;
+	background-image: linear-gradient(to right bottom, #ba5370, #cd787e, #db9c94, #e8bfb2, #f4e2d8);
+	margin-top:3%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:3%;
+	width:96%;}
+.offer-box>label{font-size:18px;
+	font-family:Arial;
+	color:black;
+	font-weight:300;
+	margin-top:2%;
+	margin-left:3%;
+	}
+
+.offer-flight{padding-bottom:3px;                             
+	width:94%;
+	border-radius:5px;
+	background-color:white;
+	box-shadow:0 0 13px 0 rgba(0,0,0,0.3);
+	margin-top:3%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.offer-flight>p{color:#138086!important;
+	padding-top:9px;
+	padding-left:6px;
+	font-size:16px;
+	margin-left:2%;
+	
+	}
+.adv-box1{margin-bottom:3%;
+	padding-bottom:10px;
+	background-image: linear-gradient(to right top, #484848, #5a495c, #794560, #993d51, #ac3e31);
+	margin-top:3%;
+	margin-left: auto;
+	margin-right: auto;
+	width:96%;}
+
+.ad1>p{padding-left:15px;
+	padding-top:6px;
+	font-weight:400;
+	font-size:16px;
+	color:#dbae58;
+	font-family:"arial",sans-serif;
+	}
+.flight-ad1{
+	width:94%;
+	border-radius:5px;
+	background-color:white;
+	box-shadow:0 0 13px 0 rgba(0,0,0,0.3);
+	margin-top:2%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"arial",sans-serif;
+	}
+.flight-ad1>p{color:BLACK;
+	padding-top:10px;
+	padding-left:13px;
+	font-size:16px;
+	line-height:22px;
+	font-family:"arial",sans-serif;
+	}
+.flight-ad1>a{padding-bottom:40px;
+	margin-left:69%;
+	text-decoration:none;
+	color:#1C4E80;
+	cursor:pointer;
+	font-family:"arial",sans-serif;
+	}
+
+.adv-box2{margin-bottom:3%;
+	padding-bottom:10px;
+	 background-image: linear-gradient(to right top, #ffffff, #d4c1d6, #b9819d, #9b4254, #6b0000);
+	margin-top:3%;
+	margin-left: auto;
+	margin-right: auto;
+	width:96%;}
+
+.ad2>p{padding-left:15px;
+	padding-top:10px;
+	font-weight:400;
+	font-size:16px;
+	color:white!important;
+	font-family:"arial",sans-serif;
+	font-weight:600;}
+.flight-ad2{padding-bottom:5px;
+	width:94%;
+	border-radius:5px;
+	background-color:white;
+	box-shadow:0 0 13px 0 rgba(0,0,0,0.3);
+	margin-top:-1%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"arial",sans-serif;
+	}
+.flight-ad2>p{color:black;
+	padding-top:6px;
+	padding-left:10px;
+	font-size:19px;
+	line-height:23px;
+	font-family:"arial",sans-serif;
+	}
+.adv-box3{	margin-top:3%;
+	padding-bottom:10px;
+	 background-image: linear-gradient(to left bottom, #13547a, #1e7292, #3891a6, #59b1b7, #80d0c7);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:3%;
+	width:96%;}
+
+.ad3>p{padding-left:15px;
+	padding-top:6px;
+	font-weight:400;
+	font-size:16px;
+	color:white!important;
+	font-family:"arial",sans-serif;
+	}
+.flight-ad3{height:110px;
+	width:94%;
+	border-radius:5px;
+	background-color:white;
+	box-shadow:0 0 13px 0 rgba(0,0,0,0.3);
+	margin-top:2%;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"arial",sans-serif;
+	}
+.flight-ad3>p{color:#13547A;
+	padding-top:6px;
+	padding-left:10px;
+	font-size:16px;
+	line-height:22px;
+	font-family:"arial",sans-serif;
+	}
+.flight-ad3>a{padding-bottom:40px;
+	margin-left:69%;
+	text-decoration:none;
+	color:black;
+	cursor:pointer;
+	font-family:"arial",sans-serif;
+	}	
+}

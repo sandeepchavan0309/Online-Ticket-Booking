@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TRAVEL BOOKINGS</title>
+	<link rel="stylesheet"href="bus.css">
+	<link rel="stylesheet"href="footer1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<meta content="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="train">&#128652; Bus Booking</div>
+<div class="index container animated zoomIn ">
+	<div class="form contactform">
+	<div class="search-box">
+		<div class="box1" id="page1">
+ <form class="autocomplete">
+		<input id="from" placeholder="Enter Your Location" name="myCountry" autocomplete="off" type="text" > 
+			
+		<input id="to" placeholder="Enter Drop Location" type="text" name="des" autocomplete="off" > 
+			
+ </form>
+	<div class="dates">
+		<div class="d date">
+			<label for="datepicker"class="flight-date">DATE</label><br>
+			<input id="datepicker"type="date" required value="31 jan 21">
+		</div>
+		<div class="seats-bus">
+			<label>SEATS</label><br>
+			<input type="number" value="01" required >
+		</div>
+	</div>
+		<button id="search" class="search-btn"><h3>SEARCH BUSES</h3>
+		</button>	
+<script src="ip.js"></script>
+<script src="ip1.js"></script>
+<!----------------------------------------------------------->
+<div class="adv-box">
+		<label class="ad"><p>Stay Informed & Travel Safe<br><strong>COVID19 UPDATE</strong></p></label>
+		<div class="flight-ad">
+			<p>MySafety-safe and hygien Buses with <br>safety& hygien measures for your<br> well being</p>
+			<a href="offers.html">Know more ></a>
+		</div>
+</div>
+<!----------------------------------------------------------->
+<hr>
+<!------------------footer 1--------------------------------->
+		<footer>
+		<div class="footer-content">
+			<div class="center-box">
+			<h2> Serivces</h2>
+				<ul class="quicklinks">
+					<li><a href="index.html"> Home</a></li>
+					<li><a href="login.html"> Login</a></li>
+					<li><a href="trips.html"> Your Trips</a></li>
+					<li><a href="offers.html"> Offers</a></li>
+				</ul>
+				<div class="soical">
+						<a href="https://touch.facebook.com/saivamshi373"><span class="fab fa-facebook-f"></span></a>&nbsp; 
+						<a href="https://mobile.twitter.com/Vamshi57226613"><span class="fab fa-twitter"></span></a>&nbsp; 
+						<a href="https://www.instagram.com/_vamshi.14_/"><span class="fab fa-instagram"></span></a>&nbsp; 
+				</div>
+			</div>
+				<div class="quick-links-footer">
+					<h2> Quick links</h2>
+						<ul class="quicklinks">
+							<li><a href="flight.html"> Flight</a></li>
+							<li><a href="train.html"> Train</a></li>
+							<li><a href="bus.html"> Bus</a></li>
+							<li><a href="cabs.html"> Cab</a></li>
+							<li><a href="hotel.html"> Hotels</a></li>
+							<li><a href="metro.html"> Metro</a></li>	
+						</ul>
+				</div>		
+		</div>
+		<div class="bottombox">
+			<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by charan</p>
+		</div>
+		<!------------------footer------------>
+		</footer>
+	</div>
+</div>
+<!----------------page2-------------------->
+<div class="page2" id="page2" >
+<div id="trainnames" class="tickets"></div>
+<div class="recommend"><p><t>&#8226;</t> Availalbe Buses</p></div>
+<button id ="bustckt" class="accordion">
+	<div class="grid-1">
+		<div id="bname" class="item1"><p>VRL Travels</p></div>
+		<div class="item2"><p>3.6/5</p></div>
+		<div class="item3"><p><small>Volvo Multi-Axle I-Shift AC..</p></small></div>
+		<div class="item4"><p>72 ratings</p></div>
+		<div id="btime" class="item5"><p>18:00</p></div>
+		<div class="item6"><p>-- 13h15m --</p></div>
+		<div id="bdrop" class="item7"><p>07:15</p></div>
+		<div id="bprice" class="item10"><p>&#8377;1,100</p></div>
+		<div class="item9"><p><small>17 Seats Left</small></p></div>
+		<div class="item8"><p><small><del>&#8377; 1,600</del></small></p></div>
+	</div>
+</button>
+<button  class="accordion">
+	<div class="grid-1">
+		<div class="item1"><p>RB Travels</p></div>
+		<div class="item2"><p>4.6/5</p></div>
+		<div class="item3"><p><small>Volvo A/C Sleeper(2+1)</p></small></div>
+		<div class="item4"><p>110 ratings</p></div>
+		<div class="item5"><p>17:00</p></div>
+		<div class="item6"><p>-- 15h40m --</p></div>
+		<div class="item7"><p>08:40</p></div>
+		<div class="item10"><p>&#8377;1,050</p></div>
+		<div class="item9"><p><small>26 Seats Left</small></p></div>
+		<div class="item8"><p><small><del>&#8377; 1,500</del></small></p></div>
+	</div>
+</button>
+<button class="accordion">
+	<div class="grid-1">
+		<div class="item1"><p>Global Travels</p></div>
+		<div class="item2"><p>2.6/5</p></div>
+		<div class="item3"><p><small>NON AC Sleeper(2+1)</p></small></div>
+		<div class="item4"><p>82 ratings</p></div>
+		<div class="item5"><p>19:15</p></div>
+		<div class="item6"><p>-- 16h00m --</p></div>
+		<div class="item7"><p>11:20</p></div>
+		<div class="item10"><p>&#8377;1,450</p></div>
+		<div class="item9"><p><small>30 Seats Left</small></p></div>
+		<div class="item8"><p><small><del>&#8377; 1,550</del></small></p></div>
+	</div>
+</button>
+<button class="accordion">
+	<div class="grid-1">
+		<div class="item1"><p>VRL Travels</p></div>
+		<div class="item2"><p>4.6/5</p></div>
+		<div class="item3"><p><small>Volvo A/C(2+1)</p></small></div>
+		<div class="item4"><p>112 ratings</p></div>
+		<div class="item5"><p>18:15</p></div>
+		<div class="item6"><p>-- 15h21m --</p></div>
+		<div class="item7"><p>09:36</p></div>
+		<div class="item10"><p>&#8377;1,300</p></div>
+		<div class="item9"><p><small>25 Seats Left</small></p></div>
+		<div class="item8"><p><small><del>&#8377; 1,650</del></small></p></div>
+	</div>
+</button>
+<button class="accordion">
+	<div class="grid-1">
+		<div class="item1"><p>RLT Travels</p></div>
+		<div class="item2"><p>2.6/5</p></div>
+		<div class="item3"><p><small>NON AC Sleeper(2+1)</p></small></div>
+		<div class="item4"><p>98 ratings</p></div>
+		<div class="item5"><p>18:30</p></div>
+		<div class="item6"><p>-- 15h30m --</p></div>
+		<div class="item7"><p>10:00</p></div>
+		<div class="item10"><p>&#8377;1,450</p></div>
+		<div class="item9"><p><small>13 Seats Left</small></p></div>
+		<div class="item8"><p><small><del>&#8377; 1,500</del></small></p></div>
+	</div>
+</button>
+<button class="accordion">
+	<div class="grid-1">
+		<div class="item1"><p>Noor Travels</p></div>
+		<div class="item2"><p>3.8/5</p></div>
+		<div class="item3"><p><small>A/C Sleeper(2+1)</p></small></div>
+		<div class="item4"><p>79 ratings</p></div>
+		<div class="item5"><p>18:15</p></div>
+		<div class="item6"><p>-- 15h21m --</p></div>
+		<div class="item7"><p>09:36</p></div>
+		<div class="item10"><p>&#8377;1,350</p></div>
+		<div class="item9"><p><small>10 Seats Left</small></p></div>
+		<div class="item8"><p><small><del>&#8377; 1,800</del></small></p></div>
+	</div>
+</button>
+
+	
+<!-------------------------------------------------------------->
+	<footer>
+	<div class="bottombox">
+		<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by sandeep</p>
+	</div>
+	</footer>
+</div><!--page2-->
+<!---PAGE3---------------------->
+<div class="page3" id="page3" >
+<div class="plane">
+  <div class="cockpit">
+    <h1>Please select a seat</h1>
+  </div>
+ 
+  <ol class="cabin fuselage">
+    <li class="row row--1">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" disabled id="1A" />
+          <label for="1A">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="1B" />
+          <label for="1B">1B</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="1C" />
+          <label for="1C">1C</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="1D" />
+          <label for="1D">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="1E" />
+          <label for="1E">1E</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="1F" />
+          <label for="1F">1F</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--2">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="2A" />
+          <label for="2A">2A</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="2B" />
+          <label for="2B">2B</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="2C" />
+          <label for="2C">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="2D" />
+          <label for="2D">2D</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="2E" />
+          <label for="2E">2E</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="2F" />
+          <label for="2F">2F</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--3">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="3A" />
+          <label for="3A">3A</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="3B" />
+          <label for="3B">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="3C" />
+          <label for="3C">3C</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="3D" />
+          <label for="3D">3D</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="3E" />
+          <label for="3E">3E</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="3F" />
+          <label for="3F">Occupied</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--4">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="4A" />
+          <label for="4A">4A</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="4B" />
+          <label for="4B">4B</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="4C" />
+          <label for="4C">4C</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="4D" />
+          <label for="4D">4D</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="4E" />
+          <label for="4E">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="4F" />
+          <label for="4F">4F</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--5">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" disabled id="5A" />
+          <label for="5A">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="5B" />
+          <label for="5B">5B</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="5C" />
+          <label for="5C">5C</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="5D" />
+          <label for="5D">5D</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="5E" />
+          <label for="5E">5E</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="5F" />
+          <label for="5F">5F</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--6">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="6A" />
+          <label for="6A">6A</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="6B" />
+          <label for="6B">6B</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="6C" />
+          <label for="6C">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="6D" />
+          <label for="6D">6D</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="6E" />
+          <label for="6E">6E</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="6F" />
+          <label for="6F">6F</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--7">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" disabled id="7A" />
+          <label for="7A">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="7B" />
+          <label for="7B">7B</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="7C" />
+          <label for="7C">7C</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="7D" />
+          <label for="7D">7D</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="7E" />
+          <label for="7E">7E</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="7F" />
+          <label for="7F">7F</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--8">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="8A" />
+          <label for="8A">8A</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="8B" />
+          <label for="8B">8B</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="8C" />
+          <label for="8C">8C</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="8D" />
+          <label for="8D">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="8E" />
+          <label for="8E">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="8F" />
+          <label for="8F">8F</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--9">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" id="9A" />
+          <label for="9A">9A</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="9B" />
+          <label for="9B">9B</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="9C" />
+          <label for="9C">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="9D" />
+          <label for="9D">9D</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="9E" />
+          <label for="9E">9E</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="9F" />
+          <label for="9F">9F</label>
+        </li>
+      </ol>
+    </li>
+    <li class="row row--10">
+      <ol class="seats" type="A">
+        <li class="seat">
+          <input type="checkbox" disabled id="10A" />
+          <label for="10A">Occupied</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="10B" />
+          <label for="10B">10B</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="10C" />
+          <label for="10C">10C</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="10D" />
+          <label for="10D">10D</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" id="10E" />
+          <label for="10E">10E</label>
+        </li>
+        <li class="seat">
+          <input type="checkbox" disabled id="10F" />
+          <label for="10F">Occupied</label>
+        </li>
+      </ol>
+    </li>
+  </ol>
+  <div class="exit --front fuselage1">
+    
+  </div>
+  <div class="check-bus">
+ <button  id="seatcheck" class="confirm"><h3>CONTINUE</h3></button>
+ </div>
+</div>
+
+</div><!--page3-->
+<!----------------------page4---------------->
+<div class="page4" id="page4" >
+<div  class="tickets">Traveller Details</div>
+   <div class="details-container">
+	<div class="ticket-check" id="tname1"></div>
+
+   </div>
+  <div class="pass-details">
+  <h3>Fill The Details</h3>
+  <label for="f-nmae"><p>NAME</p></label><br>
+	<div class="ninput">
+		<input class="f-name" type="text" id="fname" placeholder="First Name" required />
+		<input class="s-name" type="text" id="sname" placeholder="Last Name"/>
+	</div>
+	<div class="mail">
+		<label for="e-mail"><p>EMAIL ID</p></label>
+		<input class="e-mail" type="email" id="mail" placeholder="Enter Email"required />
+	</div>
+	<div class="sss">
+	<div class="agebox">
+		<label for="age"><p>AGE</p></label>
+		<input  class="age" type="number" id="ageid" placeholder="Enter Age" required />
+	 </div>
+	<div class="radiobox">
+			<label>GENDER</label>
+			<select name="s1" class= "people-btn" placeholder="select">
+			<option id="male">Male</option>
+			<option>Female</option>
+			</select>
+	 </div>
+	 </div>
+	 <div class="mail">
+		<label for="phnno"><p>CONTACT NUMBER</p></label>
+		<input class="phnno" type="number" id="phno" placeholder="Enter Contact no"required />
+	</div>
+	
+	
+	<button id="continue" class="search-btn11"><h3>Proceed To Payemt</h3></button>
+  </div>
+  <br>
+<div  class="tickets-pay">Payment Details</div>
+
+  <div class="payment">
+            <h3>Payment</h3>
+		<div class="pay">
+            <label for="cards">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+        <div class="pas-details">
+            <label for="ccnum">Card Number</label>
+            <input type="text" name="cardnumber" placeholder="1111-2222-3333-4444">
+			<label for="cname">Cards Holder Name</label>
+            <input type="text" name="cardname" placeholder="Card Holder Name">
+		</div>
+		<div class="expmonth">
+			<label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+		</div>
+            <div class="l-row">
+              <div class="expyear">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="cvv">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+        </div>  
+		
+		
+		<button id="continue-tckt" class="search-btn1"><h3>CONTINUE</h3></button>
+	</div>
+ <br>
+	<footer>
+	<div class="bottombox">
+		<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by sandeep</p>
+	</div>
+	</footer>
+</div><!--page4-->
+<!----------------------------page5---------------->
+<div class="page5" id="page5">
+<div  class="tickets1">Bus Ticket</div>
+	<div class="ticket-grid">
+		<div class="item00"><v>Booking Id: 1410250349</v></div>
+		<div class="item01"><v>Bus: VRL Travels</v></div>
+		<div class="item02"><v>Departure From: </v><span id="From1"></span></div>
+		<div class="item03"><v>Arrive To: </v><span id="to1"></span></div>
+		<div class="item04"><v>Ticket Type: Sleeper(2+1)</v></div>
+		<div class="item05"><v>Date: </v><span id="datepicke"></span></div>
+		<div class="item06"><v>Seats: </v></div>
+	</div>
+<div  class="tickets2">Customer Details</div>
+
+	<div class="pas-gird">
+		<div class="item111"><v>Name: </v><span id="pname"></span></div>
+		<div class="item113"><v>Mobile No: </v><span id="pcontactno"></span></div>
+		<div class="item114"><v>Email id: </v><span id="Pmail"></span></div>
+		<div class="item115"><v>payment: Online Payment</v></div>
+		<div class="item112"><v>Total:</v><span id="bprice1"></span></div>
+	</div>
+		<div class="tky">
+			<p>Thank you For Booking &#10003;</p>
+		</div>
+	<div class="fbtn">
+		<button onclick="document.location='index.html'" class="search-btn111"><h3>HOME</h3></a></button>
+	</div>
+	<footer>
+	<div class="bottombox">
+		<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by sandeep</p>
+	</div>
+	</footer>
+</div><!--page5-->
+</div><!--page1-->
+</div><!--page1-->
+<script>
+  $(document).ready(function() {
+  
+  $("#page2").hide();
+  $("#page3").hide();
+  $("#page4").hide();
+  $("#page5").hide();
+  $("#search").click(function() {
+    from = $("#from").val();
+    to = $("#to").val();
+    date = $("#datepicker").val();
+    if (!(from && to && date)) {
+      alert("Please Fill All Fields !");
+      return False;
+    } else if (from == to) {
+      alert("From and To can't be same");
+      return False;
+    }
+    $("#page1").hide();
+    $("#page2").show();
+    $("#page3").hide();
+	$(".search-box").hide();
+	$(".train").hide();
+	$("#page4").hide();
+	$("#page5").hide();
+   $("#trainnames").html(from + " &#8594; " + to  );
+	
+	});
+		$(".accordion").click(function() {
+			$("#page1").hide();
+			$("#page2").hide();
+			$("#page3").show();
+			$(".payment").hide();
+			$(".tickets-pay").hide();
+			$("#page4").hide();
+			$("#page5").hide();
+	
+	});
+		$("#seatcheck").click(function() {
+			$("#page1").hide();
+			$("#page2").hide();
+			$("#page3").hide();
+			$("#page4").show();
+			$("#page5").hide();
+			$("#tname1").html(from+" to " +to);	
+	});
+		$("#continue").click(function() {
+			fname = $("#fname").val();
+			sname = $("#sname").val();
+			mail = $("#mail").val();
+			phno = $("#phno").val();
+			if (!(fname && sname && mail && phno)) {
+			  alert("Please Fill All Fields !");
+			  return False;
+			} 
+
+			$("#page1").hide();
+			$("#page2").hide();
+			$("#page3").hide();
+			$("#page5").hide();
+			$(".pass-details").hide();
+			$(".details-container").hide();
+			$(".tickets").hide();
+			$(".tickets-pay").show();
+			$(".payment").show();
+			
+			});
+			
+		$("#continue-tckt").click(function(){
+
+		$("#page1").hide();
+		$("#page2").hide();
+		$("#page3").hide();
+		$("#page4").hide();
+		$("#page5").show();
+			$("#bname1").html(bname);
+			$("#From1").html(from);
+			$("#to1").html(to);
+			$("#datepicke").html(date);
+			
+			$("#pname").html( fname + " "+ sname);
+			$("#pcontactno").html(phno);
+			$("#Pmail").html(mail);
+			$("#bprice1").html(bprice);
+			
+			
+	
+			});
+});
+  </script>
+</body>
+</html>

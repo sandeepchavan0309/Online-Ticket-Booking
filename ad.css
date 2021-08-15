@@ -1,0 +1,67 @@
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif; margin:0;}
+@media only screen and (max-width:480px){
+/* Slideshow container */
+.slideshow-container {width:95%;
+  margin-left:auto;
+  margin-right:auto;
+  position: relative;
+   background-image: linear-gradient(to right, #29323c, #313a45, #38434f, #404c59, #485563);
+  padding:8PX;
+  border-radius:5px;}
+
+/* Slides */
+.mySlides { width:97%;
+  margin-right:auto;
+  margin-left:auto;
+  height:120px;
+  background-image: linear-gradient(to left bottom, #ece7df, #e6d9c5, #e1cbac, #dbbd93, #d6ae7b);
+  display: none;
+  padding: 19px;
+  text-align: center;
+  border-radius:5px;
+  color:#120c6e;
+}
+.mySlides>p>t{color:red!important;}
+.mySlides>p>o{color:#534666!important;}
+.mySlides>p>v{color:#138086!important;}
+/* Next & previous buttons */
+.prev {text-decoration:none;
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  margin-top:-21%;
+  margin-left:2%;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {text-decoration:none;
+  cursor: pointer;
+  position: absolute;
+  margin-top:-21%;
+  margin-right:4%;
+  width: auto;
+  color:black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+/* Add an italic font style to all quotes */
+.mySlides>p{font-family:arial;
+	font-size:20px;
+	font-style: italic;}
+
+}

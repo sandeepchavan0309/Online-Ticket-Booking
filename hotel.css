@@ -1,0 +1,133 @@
+body{background-color:#181818!important;margin:0px;}
+@media only screen and (max-width:480px){
+.hotel{font-size:38px;
+		line-height:55px;
+		font-family:cursive;
+		margin-left:-2%;
+		margin-top:2%;
+		padding-left:26px;
+		height:60px;
+		color:#66c0d3;
+		background-color:#1D2228;
+		}
+.hotel-search{padding-bottom:22px;
+		width:95%;
+		color:white;
+		background-color:#1D2228;
+		margin-top:4%;
+		margin-right:auto;
+		margin-left:auto;
+		border:none;
+		}
+.myselect{height:40px;
+		width:85%;
+		text-align:center;
+		outline:none;
+		border:none;
+		border-bottom:1px solid white;
+		background:none;
+		color:white;
+		margin-left:6%;
+		margin-top:7%;
+		font-size:17px;
+		}
+	
+.dates{margin-left:auto;
+		margin-right:auto;
+		display:flex;
+		justify-content:space-evenly;
+		line-height:30px;
+		text-align:center;
+		color:white;
+		color:#66c0d3;}
+.d{	margin-top:30px;
+		font-size:20px;
+		font-family:"arial",sans-serif;
+		}
+
+.r{margin-top:30px;
+		font-size:20px;
+		font-family:"arial",sans-serif;
+		}
+.date>input{margin-top:10px;
+		height:29px;
+		width:145px;
+		outline:none;
+		border:none;
+		border-bottom:1px solid white;
+		background:none;
+		color:white;
+		font-size:17px;}
+.guest-box{line-height:40px;
+		display:flex;
+		margin-top:19px;
+		justify-content:space-evenly;
+		text-align:center;
+		color:white;}
+.guest{color:#66c0d3;
+		font-size:20px;
+		font-family:"arial",sans-serif;
+		margin-top:9px;
+	}
+.guest>input{height:29px;
+		width:125px;
+		outline:none;
+		border:none;
+		border-bottom:1px solid white;
+		background:none;
+		color:white;
+		font-size:17px;
+		text-align:center;}
+.search-btn{width:70%;
+	height:50px;
+	border-radius:5px;
+	margin-left:15%;
+	margin-top:53px;
+	background-color:#1e90ff;
+	border:none;
+	box-shadow:10px 10px 10px black;
+	letter-spacing:0.5px;
+	outline:none;}
+.search-btn>h3{COLOR:WHITE;
+	font-size:19px;
+	outline:none;
+	margin-top:13px;}
+.search-btn>h3:hover{color:black;
+			letter-spacing:1px;}
+.offer-box{padding-bottom:10px;
+	width:94%;
+	background-image:linear-gradient(to right top, #66c0d3, #07bbbf, #00b39d, #00a96e, #0f9d34);
+	border-radius:10px;
+	margin-top:10%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.offer-box>label{font-size:20px;
+	font-family:arial;
+	color:black!important;
+	font-weight:100;
+	line-height:35px;
+	margin-left:4%;
+	}
+.offer-flight{height:90px;                             
+	width:94%;
+	border-radius:2px;
+	background-color:WHITE;
+	border-radius:10px;
+	box-shadow:0 0 13px 0 rgba(0,0,0,0.3);
+	margin-top:-3%;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+.offer-flight>p{color:black;
+	font-family:arial;
+	padding-top:5px;
+	padding-left:6px;
+	font-size:18px;
+	margin-left:2%;
+	line-height:24px;
+	}
+hr{margin-top:25px;}	
+
+}

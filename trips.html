@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TRAVEL BOOKINGS</title>
+	<meta content="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<style>
+body{background-color:white!important;
+margin:0%;}
+@media only screen and (max-width:480px){
+.trips-bg{font-size:37px;
+		line-height:65px;
+		margin-top:1%;
+		padding-left:20px;
+		height:65px;
+		color:#f5a400;
+		background-color:#1D2228;
+		font-family:arial;}
+.tripsimg{text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+.tripsimg>img{height:210px;
+	width:190px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:110px;
+	border-bottom:1px solid black;}
+
+.caption>p{color:black;
+	font-size:20px;
+	text-align:center;
+	font-family:arial;
+	font-size:20px;}
+.btn{display:flex;
+	justify-content:space-evenly;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.btn>button{width:38%;
+	height:50px; 
+	border-radius:5px;
+	margin-top:19px;
+	background-color:#00aeec;
+	border:none;
+	letter-spacing:0.5px;
+	outline:none;
+	font-size:19px;}
+.bottombox{
+		line-height:30px;
+		border-top:2px solid white;
+		border-radius:5px;
+		text-align:center;
+		color:white;
+		width:100%;
+		height:60px;
+		font-size:14px;
+		font-family:"arial",sans-serif;
+		background-color:#08080C;
+		position:absolute;
+		}
+}
+</style>
+<div class="trips-bg">My Trips</div>
+<div class="tripsimg"><img src="trips.jpg"></div>
+<div class="caption"><p>You don't have any bookings.</p></div>
+
+<div class="btn">
+<button onclick="document.location='trips.html'"class="refresh">REFRESH</button>
+<button onclick="document.location='index.html'"class="home">HOME</button>
+</div>
+<br><br><br><br><br><br>
+<footer>
+<div class="bottombox">
+	<p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by sandeep</p>
+</div>
+</footer>
+</body>
+</html>
